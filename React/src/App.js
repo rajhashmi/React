@@ -5,6 +5,8 @@ import Welcome from './components/Welcome';
 import Message from './components/Message';
 import StateAdvanced from './components/State';
 import Eventbinding from './components/EventBinding';
+import ParentComponent from './components/ParentComponent';
+import ConditionalRendering from './components/conditionalRendering';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
     <Hello name="shahid"/>
     <Message/> */}
     {/* <StateAdvanced/> */}
-    <Eventbinding/>
+    {/* <Eventbinding/> */}
+    {/* <ParentComponent/> */}
+    <ConditionalRendering/>
     </div>
   );
 }
