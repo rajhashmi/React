@@ -13,7 +13,8 @@ import Form from './components/SimpleForm';
 import ComponentLifecycleMethod from './components/ComponentLifecycleMethod';
 import ComponentLifecycleUpdateMethod from './components/ComponentLifecycleUpdateMethod';
 import Fragment from './components/Fragment';
-import Refs from './components/Refs';
+import FRInputParent from './components/FRInputParent';
+// import Refs from './components/Refs';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
     {/* <ComponentLifecycleMethod/> */}
     {/* <ComponentLifecycleUpdateMethod/> */}
     {/* <Fragment/> */}
-    <Refs/>
+    {/* <Refs/> */}
+    <FRInputParent/>
     </div>
   );
 }
