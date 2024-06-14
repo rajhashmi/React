@@ -14,15 +14,20 @@ import ComponentLifecycleMethod from './components/ComponentLifecycleMethod';
 import ComponentLifecycleUpdateMethod from './components/ComponentLifecycleUpdateMethod';
 import Fragment from './components/Fragment';
 import FRInputParent from './components/FRInputParent';
+import Portals from './components/Portals';
+import ChildComponent1 from './components/ChildComponent1';
+import { ContextProvider } from './components/Context';
 // import Refs from './components/Refs';
 
 function App() {
   return (
     <div className="App">
-    {/* <Greet/>
-    <Welcome name="shahid"/>
+      <ContextProvider value={"this is shahid"}>
+         <Greet/>
+      </ContextProvider>
+    {/* <Welcome name="shahid"/>
     <Hello name="shahid"/>
-    <Message/> */}
+    <Message/> 
     {/* <StateAdvanced/> */}
     {/* <Eventbinding/> */}
     {/* <ParentComponent/> */}
@@ -34,7 +39,10 @@ function App() {
     {/* <ComponentLifecycleUpdateMethod/> */}
     {/* <Fragment/> */}
     {/* <Refs/> */}
-    <FRInputParent/>
+    {/* <FRInputParent/> */}
+    {/* <Portals/> */}
+    {/* <ChildComponent1 /> */}
+
     </div>
   );
 }

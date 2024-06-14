@@ -1,7 +1,13 @@
 import react from 'react'
+import { ContextConsumer } from './Context'
 
 function Greet(){
-    return <h1>Hello Shahid, Your first component</h1>
+    return(
+        <ContextConsumer>
+       <div>hello</div>
+    </ContextConsumer>
+    // <div>hello</div>
+    )
 };
 
 export default Greet
